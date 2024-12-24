@@ -1,0 +1,18 @@
+{
+  "name": "beki-website",
+  "version": "1.0.0",
+  "description": "Artist website for Beki",
+  "main": "/frontend/dist/index.js",
+  "scripts": {
+    "install": "npm i && cd frontend && npm i && cd .. && cd backend && npm i",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "lint": "cd frontend && npm run lint",
+    "preview": "cd frontend && npm run preview"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
