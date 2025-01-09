@@ -1,12 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaSpotify } from "react-icons/fa";
+import { FaSoundcloud } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaItunes } from "react-icons/fa";
 
 const Navbar = () => {
 	return (
-		<header>
-
+		<header className="">
+			<div className="container">
+				<a href=""><FaSpotify size={30}/></a>
+				<a href=""><FaSoundcloud size={30}/></a>
+				<a href=""><FaYoutube size={30}/></a>
+				<a href=""><FaItunes size={30}/></a>
+			</div>
 			{/* TODO: Make three sections, one for the socails, second for the website links, and third for the space between */}
-			<nav className="navbar">
+			<nav>
 				<ul>
 					<li>
 						<Link to="/projects">Projects</Link>
