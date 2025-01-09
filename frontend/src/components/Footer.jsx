@@ -7,8 +7,9 @@ const Footer = () => {
 				<div className="row">
 					<div className="col-md-6">
 						<p>
-							&copy; {new Date().getFullYear()} Your Company Name. All rights
-							reserved.
+							&copy; {new Date().getFullYear()} beki
+							<br />
+							All rights reserved.
 						</p>
 					</div>
 					<div className="col-md-6 text-right">
